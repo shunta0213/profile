@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Home from './pages/Home'
 import Publications from './pages/Publications'
 import Presentations from './pages/Presentations'
+import Resume from './pages/Resume'
 import Contact from './pages/Contact'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <main className="max-w-4xl mx-auto px-6 py-8 flex-1 w-full">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/resume" element={<Resume />} />
             <Route path="/publications" element={<Publications />} />
             <Route path="/presentations" element={<Presentations />} />
             <Route path="/contact" element={<Contact />} />
