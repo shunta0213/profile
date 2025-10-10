@@ -1,24 +1,16 @@
 import React from 'react'
+import SectionHeader from '../components/ui/SectionHeader'
+import Card from '../components/ui/Card'
+import Layout from '../components/ui/Layout'
+import { presentations } from '../data/presentations'
 
 const Presentations: React.FC = () => {
-  const presentations = [
-    {
-      title: 'Presentation Title 1',
-      event: 'Conference/Workshop Name',
-      date: 'Month Year',
-      location: 'Location',
-      type: 'Oral Presentation',
-    },
-  ]
-
   return (
-    <section>
-      <h2 className="text-3xl font-semibold text-slate-800 mb-4 pb-2 border-b-2 border-blue-500">
-        Presentations
-      </h2>
+    <Layout>
+      <SectionHeader title="Presentations" />
       <div className="space-y-5">
         {presentations.map((presentation, index) => (
-          <div key={index} className="bg-white p-5 rounded-lg shadow-sm border border-gray-200">
+          <Card key={index}>
             <h3 className="text-xl font-semibold text-slate-700 mb-2">{presentation.title}</h3>
             <div className="text-gray-600 space-y-1">
               <p><span className="font-semibold">Event:</span> {presentation.event}</p>
@@ -26,10 +18,10 @@ const Presentations: React.FC = () => {
               <p><span className="font-semibold">Location:</span> {presentation.location}</p>
               <p><span className="font-semibold">Type:</span> {presentation.type}</p>
             </div>
-          </div>
+          </Card>
         ))}
       </div>
-    </section>
+    </Layout>
   )
 }
 

@@ -1,11 +1,11 @@
 import React from 'react'
+import SectionHeader from '../components/ui/SectionHeader'
+import Layout from '../components/ui/Layout'
 
 const Home: React.FC = () => {
   return (
-    <section>
-      <h2 className="text-3xl font-semibold text-slate-800 mb-4 pb-2 border-b-2 border-blue-500">
-        About
-      </h2>
+    <Layout>
+      <SectionHeader title="About" />
       <div className="text-gray-700 leading-relaxed space-y-4">
         <p>
           I am a senior undergraduate student in the Department of Applied Physics and Physico-Informatics
@@ -19,7 +19,7 @@ const Home: React.FC = () => {
           real-world combinatorial optimization challenges.
         </p>
       </div>
-    </section>
+    </Layout>
   )
 }
 

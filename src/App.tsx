@@ -7,7 +7,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/profile">
       <div className="min-h-screen flex flex-col font-serif bg-gray-50">
         <Header />
         <main className="max-w-4xl mx-auto px-6 py-8 flex-1 w-full">

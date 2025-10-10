@@ -1,34 +1,38 @@
-import React from 'react'
+import React from "react";
+import SectionHeader from "../components/ui/SectionHeader";
+import Layout from "../components/ui/Layout";
+import { publications } from "../data/publications";
 
 const Publications: React.FC = () => {
-  const publications = [
-    {
-      authors: 'Last, F., Coauthor, A., & Another, B.',
-      year: 2024,
-      title: 'An Important Study on Something Significant',
-      venue: 'Journal of Important Research',
-      volume: '12(3)',
-      pages: '123-145',
-    },
-  ]
-
   return (
-    <section>
-      <h2 className="text-3xl font-semibold text-slate-800 mb-4 pb-2 border-b-2 border-blue-500">
-        Selected Publications
-      </h2>
+    <Layout>
+      <SectionHeader title="Publications" />
       <div className="space-y-5">
         {publications.map((pub, index) => (
-          <div key={index} className="text-gray-700 leading-relaxed pl-6 border-l-4 border-gray-300">
+          <div
+            key={index}
+            className="text-gray-700 leading-relaxed pl-6 border-l-4 border-gray-300"
+          >
             <p className="mb-1">
-              {pub.authors} ({pub.year}). <em>{pub.title}</em>. {pub.venue}
-              {pub.volume && `, ${pub.volume}`}, {pub.pages}.
+              {pub.authors}, "{pub.title}," <em>{pub.venue}</em>
+              {pub.volume && `, ${pub.volume}`}
+              {pub.pages && `, ${pub.pages}`}
+              {`, (${pub.year})`}
+              <a
+                className="text-blue-600 hover:underline"
+                href={`https://doi.org/${pub.doi}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {pub.doi && `, doi: ${pub.doi}`}
+              </a>
+              {pub.toAppear && ", (to appear)."}
             </p>
           </div>
         ))}
       </div>
-    </section>
-  )
-}
+    </Layout>
+  );
+};
 
-export default Publications
+export default Publications;
