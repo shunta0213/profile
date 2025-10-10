@@ -9,13 +9,6 @@ const Presentations: React.FC = () => {
       location: 'Location',
       type: 'Oral Presentation',
     },
-    {
-      title: 'Presentation Title 2',
-      event: 'Conference/Workshop Name',
-      date: 'Month Year',
-      location: 'Location',
-      type: 'Poster Presentation',
-    },
   ]
 
   return (

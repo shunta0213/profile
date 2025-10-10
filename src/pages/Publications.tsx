@@ -10,21 +10,6 @@ const Publications: React.FC = () => {
       volume: '12(3)',
       pages: '123-145',
     },
-    {
-      authors: 'Last, F., & Colleague, C.',
-      year: 2023,
-      title: 'Investigating Novel Approaches to Complex Problems',
-      venue: 'Proceedings of the International Conference on Research',
-      pages: '45-52',
-    },
-    {
-      authors: 'Last, F.',
-      year: 2022,
-      title: 'Theoretical Foundations of Contemporary Methods',
-      venue: 'Academic Quarterly',
-      volume: '8(2)',
-      pages: '201-220',
-    },
   ]
 
   return (
