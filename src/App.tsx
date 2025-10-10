@@ -35,7 +35,7 @@ function App() {
     <Router>
       <div className="min-h-screen flex flex-col font-serif bg-gray-50">
         <Header />
-        <main className="max-w-4xl mx-auto px-6 py-8 flex-1 w-full">
+        <main className="max-w-4xl mx-auto px-4 sm:px-6 py-4 sm:py-8 flex-1 w-full">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/resume" element={<Resume />} />
@@ -44,22 +44,22 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-        <footer className="bg-slate-800 text-gray-100 text-center py-6 mt-12">
-          <div className="flex justify-center gap-4 mb-4">
+        <footer className="bg-slate-800 text-gray-100 text-center py-4 sm:py-6 mt-8 sm:mt-12">
+          <div className="flex justify-center gap-4 sm:gap-6 mb-3 sm:mb-4">
             {socialLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-blue-400 transition-colors"
+                className="text-gray-300 hover:text-blue-400 transition-colors p-2"
                 aria-label={link.ariaLabel}
               >
                 {socialIcons[link.icon]}
               </a>
             ))}
           </div>
-          <p className="text-sm">&copy; {new Date().getFullYear()} Shunta Ide. All rights reserved.</p>
+          <p className="text-xs sm:text-sm px-4">&copy; {new Date().getFullYear()} Shunta Ide. All rights reserved.</p>
         </footer>
       </div>
     </Router>
