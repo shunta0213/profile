@@ -26,6 +26,9 @@ const Presentations: React.FC = () => {
           <p><span className="font-semibold">Date:</span> {presentation.date}</p>
           <p><span className="font-semibold">Location:</span> {presentation.location}</p>
           <p><span className="font-semibold">Type:</span> {presentation.type}</p>
+          {presentation.url && (
+            <p><span className="font-semibold">URL:</span> <a href={presentation.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">{presentation.url}</a></p>
+          )}
         </div>
       </Card>
     ))

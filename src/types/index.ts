@@ -15,6 +15,7 @@ export interface Presentation {
   date: string
   location: string
   type: string
+  url?: string
 }
 
 export interface ResearchArea {

@@ -8,7 +8,7 @@ const Header: React.FC = () => {
         <Link to="/" className="block hover:opacity-90 transition-opacity">
           <h1 className="text-4xl font-bold mb-2">Shunta Ide</h1>
           <p className="text-xl text-gray-300">Senior | Department of Applied Physics and Physico-Informatics</p>
-          <p className="text-lg text-gray-400 mt-1">Keio University</p>
+          <p className="text-lg text-gray-400 mt-1">Keio University, Japan</p>
         </Link>
       </div>
       <nav className="bg-slate-700">
