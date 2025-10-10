@@ -12,12 +12,6 @@ const Home: React.FC = () => {
           at Keio University. My research interests lie at the intersection of quantum computing,
           Ising machines, and combinatorial optimization.
         </p>
-        <p>
-          I am passionate about exploring the practical applications of quantum algorithms and
-          optimization techniques to solve complex computational problems. My current work focuses
-          on understanding the capabilities and limitations of Ising machines in addressing
-          real-world combinatorial optimization challenges.
-        </p>
       </div>
     </Layout>
   )
