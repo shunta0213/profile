@@ -85,6 +85,15 @@ export const experience: Experience[] = [
 
 export const activities: Activity[] = [
   {
+    title: 'Student Volunteer',
+    organization: 'Global Quantum Tomodachi no Kai (Trans: Global Quantum Friendship Club)',
+    period: 'May 2025',
+    description: [
+      'Organized by Quantum Forum',
+      'Volunteered at the Global Quantum Friendship Club event held on May 13, 2025 at Deloitte Tohmatsu Innovation Park Room D Auditorium.',
+    ],
+  },
+  {
     title: 'Community Member',
     organization: 'Google Developers Student Clubs (GDSC) Keio University',
     url: 'https://developers.google.com/community',
