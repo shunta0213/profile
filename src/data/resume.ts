@@ -97,7 +97,7 @@ export const activities: Activity[] = [
     title: 'Community Manager',
     organization: 'Cloud League',
     url: 'https://cloud-league.vercel.app/',
-    period: 'May 2022 - Mar 202e',
+    period: 'May 2022 - Mar 2022',
     description: [
       'Engineer community consisting of Google Developers Student Clubs (GDSC) members in Keio University, University of Tokyo, Tohoku University, and Hitotsubashi University etc.',
       'Hosted events such as hackathons, workshops, and lectures supported by companies and Google.',

@@ -11,9 +11,10 @@ export interface Publication {
 
 export interface Presentation {
   title: string
+  authors: string
   event: string
+  venue?: string
   date: string
-  location: string
   type: string
   url?: string
 }

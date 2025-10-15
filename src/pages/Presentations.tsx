@@ -22,13 +22,22 @@ const Presentations: React.FC = () => {
       <Card key={index}>
         <h3 className="text-xl font-semibold text-slate-700 mb-2">{presentation.title}</h3>
         <div className="text-gray-600 space-y-1">
-          <p><span className="font-semibold">Event:</span> {presentation.event}</p>
-          <p><span className="font-semibold">Date:</span> {presentation.date}</p>
-          <p><span className="font-semibold">Location:</span> {presentation.location}</p>
-          <p><span className="font-semibold">Type:</span> {presentation.type}</p>
-          {presentation.url && (
-            <p><span className="font-semibold">URL:</span> <a href={presentation.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">{presentation.url}</a></p>
+          <p><span className="font-semibold">Authors:</span> {presentation.authors}</p>
+          <p>
+            <span className="font-semibold">Event:</span>{' '}
+            {presentation.url ? (
+              <a href={presentation.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                {presentation.event}
+              </a>
+            ) : (
+              presentation.event
+            )}
+          </p>
+          {presentation.venue && (
+            <p><span className="font-semibold">Venue:</span> {presentation.venue}</p>
           )}
+          <p><span className="font-semibold">Date:</span> {presentation.date}</p>
+          <p><span className="font-semibold">Type:</span> {presentation.type}</p>
         </div>
       </Card>
     ))

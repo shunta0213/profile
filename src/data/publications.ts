@@ -6,7 +6,6 @@ export const publications: Publication[] = [
     year: 2025,
     title: 'Extending Sample Persistence Variable Reduction for Constrained Combinatorial Optimization Problems,',
     venue: 'arXiv:2509.19280',
-    // pages: 'pp. 500-501',
     doi: '10.48550/arXiv.2509.19280',
   },
   {
