@@ -13,14 +13,10 @@ const Publications: React.FC = () => {
           <Card key={index}>
             <h3 className="text-xl font-semibold text-slate-700 mb-2">{pub.title}</h3>
             <div className="text-gray-600 space-y-1">
-              <p><span className="font-semibold">Authors:</span> {pub.authors}</p>
-              <p><span className="font-semibold">Venue:</span> {pub.venue}</p>
-              <p><span className="font-semibold">Year:</span> {pub.year}</p>
-              {pub.volume && <p><span className="font-semibold">Volume:</span> {pub.volume}</p>}
-              {pub.pages && <p><span className="font-semibold">Pages:</span> {pub.pages}</p>}
+              <p>{pub.authors}</p>
+              <p><span className="italic">{pub.venue}</span>, {pub.year}{pub.volume && `, ${pub.volume}`}{pub.pages && `, ${pub.pages}`}</p>
               {pub.doi && (
                 <p>
-                  <span className="font-semibold">DOI:</span>{" "}
                   <a
                     className="text-blue-600 hover:underline"
                     href={`https://doi.org/${pub.doi}`}
