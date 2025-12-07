@@ -1,7 +1,7 @@
 import { ContactInfo } from '../types'
 
 export const contactInfo: ContactInfo = {
-  email: 'shunta16213@keio.jp',
+  email: ['shunta16213@keio.jp', 'contact@sprshunt.com'],
   affiliation: {
     lab: {
       name: 'Shu Tanaka Lab',

@@ -25,7 +25,7 @@ export interface ResearchArea {
 }
 
 export interface ContactInfo {
-  email: string
+  email: string[]
   affiliation: {
     lab: {
       name: string

@@ -12,9 +12,14 @@ const Contact: React.FC = () => {
         <div className="space-y-3 text-gray-700">
           <p>
             <span className="font-semibold">Email:</span>{' '}
-            <a href={`mailto:${contactInfo.email}`} className="text-blue-600 hover:underline">
-              {contactInfo.email}
-            </a>
+            {contactInfo.email.map((email, index) => (
+              <React.Fragment key={email}>
+                {index > 0 && ', '}
+                <a href={`mailto:${email}`} className="text-blue-600 hover:underline">
+                  {email}
+                </a>
+              </React.Fragment>
+            ))}
           </p>
           <p>
             <span className="font-semibold">Affiliation:</span><br />
