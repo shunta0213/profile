@@ -13,7 +13,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="block hover:opacity-90 transition-opacity" onClick={closeDrawer}>
             <h1 className="text-2xl sm:text-4xl font-bold mb-1 sm:mb-2">Shunta Ide</h1>
-            <p className="text-sm sm:text-xl text-gray-300">Senior | Department of Applied Physics and Physico-Informatics</p>
+            <p className="text-sm sm:text-xl text-gray-300">Master's student | Graduate School of Science and Technology</p>
             <p className="text-xs sm:text-lg text-gray-400 mt-0.5 sm:mt-1">Keio University, Japan</p>
           </Link>
           <button

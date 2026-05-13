@@ -8,8 +8,8 @@ const Home: React.FC = () => {
       <SectionHeader title="About" />
       <div className="text-gray-700 leading-relaxed space-y-4">
         <p>
-          I am a senior undergraduate student in the Department of Applied Physics and Physico-Informatics
-          at Keio University. My research interests lie at the intersection of quantum computing,
+          I am a Master's student in the Graduate School of Science and Technology at Keio University.
+          My research interests lie at the intersection of quantum computing,
           Ising machines, and combinatorial optimization.
         </p>
       </div>

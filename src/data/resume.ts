@@ -23,10 +23,16 @@ export interface Activity {
 
 export const education: Education[] = [
   {
-    degree: "B.Eng. in Applied Physics and Physico-Informatics",
+    degree: "Master of Engineering",
     institution: "Keio University",
-    period: "2022 - Present",
-    details: ["Lab: Shu Tanaka Lab"],
+    period: "April 2026 - Present",
+    details: [],
+  },
+  {
+    degree: "Bachelor of Engineering",
+    institution: "Keio University",
+    period: "April 2022 - March 2026",
+    details: ["Department: Applied Physics and Physico-Informatics"],
   },
 ];
 

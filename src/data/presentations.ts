@@ -2,6 +2,15 @@ import { Presentation } from '../types'
 
 export const presentations: Presentation[] = [
   {
+    title: 'Unfair Sampling of Quantum Annealing in Constrained Combinatorial Optimization',
+    authors: 'Shunta Ide and Shu Tanaka',
+    event: 'The 38th Quantum Information Kanto Region Student Chapter',
+    venue: 'Keio University, Yokohama, Japan',
+    date: 'March 31, 2026',
+    url: 'https://quangaroo.web.fc2.com/meetings/38/meeting.html',
+    type: 'Poster Presentation',
+  },
+  {
     title: 'Extensions and Evaluation of the Sample Persistence Algorithm for Constrained Combinatorial Optimization Problems',
     authors: 'Shunta Ide, Shuta Kikuchi, and Shu Tanaka',
     event: 'International Network on Quantum Annealing Conference (INQA) 2025',
