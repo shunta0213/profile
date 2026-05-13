@@ -33,7 +33,7 @@ const socialIcons: Record<string, JSX.Element> = {
 function App() {
   return (
     <HashRouter>
-      <div className="min-h-screen flex flex-col font-serif bg-gray-50">
+      <div className="min-h-screen flex flex-col font-sans bg-gray-50">
         <Header />
         <main className="max-w-4xl mx-auto px-4 sm:px-6 py-4 sm:py-8 flex-1 w-full">
           <Routes>
