@@ -2,6 +2,15 @@ import { Presentation } from '../types'
 
 export const presentations: Presentation[] = [
   {
+    title: 'Improving the Sample Fairness via Penalty Term',
+    authors: 'Shunta Ide and Shu Tanaka',
+    event: 'Adiabatic Quantum Computing (AQC) 2026',
+    venue: 'Science Tokyo, Tokyo, Japan',
+    date: 'June 25, 2026',
+    url: 'https://sites.google.com/view/aqc2026/',
+    type: 'Oral Presentation',
+  },
+  {
     title: 'Unfair Sampling of Quantum Annealing in Constrained Combinatorial Optimization',
     authors: 'Shunta Ide and Shu Tanaka',
     event: 'The 38th Quantum Information Kanto Region Student Chapter',
