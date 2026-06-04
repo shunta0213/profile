@@ -2,7 +2,7 @@ import { Presentation } from '../types'
 
 export const presentations: Presentation[] = [
   {
-    title: 'Improving the Sample Fairness via Penalty Term',
+    title: 'Improving Sampling Fairness in Quantum Annealing via Penalty Terms',
     authors: 'Shunta Ide and Shu Tanaka',
     event: 'Adiabatic Quantum Computing (AQC) 2026',
     venue: 'Science Tokyo, Tokyo, Japan',
