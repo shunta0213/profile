@@ -58,6 +58,15 @@ function App() {
                 {socialIcons[link.icon]}
               </a>
             ))}
+            <a
+              href="/CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-blue-400 transition-colors p-2 text-sm font-medium flex items-center"
+              aria-label="CV"
+            >
+              CV
+            </a>
           </div>
           <p className="text-xs sm:text-sm px-4">
             &copy; {new Date().getFullYear()} Shunta Ide. All rights reserved.
