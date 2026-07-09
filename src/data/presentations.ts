@@ -2,6 +2,24 @@ import { Presentation } from '../types'
 
 export const presentations: Presentation[] = [
   {
+    title: 'Unfair Sampling of Quantum Annealing in Weighted Graph Bipartitioning Problems',
+    authors: 'Shunta Ide and Shu Tanaka',
+    event: '2026 IEEE International Conference on Quantum Computing and Engineering (QCE)',
+    venue: 'Metro Toronto Convention Centre Toronto, Ontario, Canada',
+    date: 'September 13, 2026',
+    url: 'https://qce.quantum.ieee.org/2026/',
+    type: 'Oral Presentation',
+  },
+  {
+    title: 'Effects of Finite-Time Quench on Solution Distributions in Quantum Annealing for Multi-Objective Optimization',
+    authors: 'Kohei Oana, Shunta Ide and Shu Tanaka',
+    event: 'The Physical Society of Japan 2026 Annual Meeting',
+    venue: 'University of Tokyo, Tokyo, Japan',
+    date: 'September 14, 2026',
+    url: 'https://www.jps.or.jp/english/meetings-and-awards/annual/annual-index.html',
+    type: 'Poster Presentation'
+  },
+  {
     title: 'Improving Sampling Fairness in Quantum Annealing via Penalty Terms',
     authors: 'Shunta Ide and Shu Tanaka',
     event: 'Adiabatic Quantum Computing (AQC) 2026',
@@ -21,7 +39,7 @@ export const presentations: Presentation[] = [
   },
   {
     title: 'Extensions and Evaluation of the Sample Persistence Algorithm for Constrained Combinatorial Optimization Problems',
-    authors: 'Shunta Ide, Shuta Kikuchi, and Shu Tanaka',
+    authors: 'Shunta Ide, Shuta Kikuchi and Shu Tanaka',
     event: 'International Network on Quantum Annealing Conference (INQA) 2025',
     venue: 'Auditorium Building B, Universitat Pompeu Fabra, Barcelona, Spain',
     date: 'November 3, 2025',
@@ -30,7 +48,7 @@ export const presentations: Presentation[] = [
   },
   {
     title: 'Multi-Penalty Sample Persistence Variable Reduction for Constrained Combinatorial Optimization Problems',
-    authors: 'Shunta Ide, Shuta Kikuchi, and Shu Tanaka',
+    authors: 'Shunta Ide, Shuta Kikuchi and Shu Tanaka',
     event: '2025 IEEE International Conference on Quantum Computing and Engineering (QCE)',
     venue: 'Albuquerque Convention Center, Albuquerque, New Mexico, USA',
     date: 'September 4, 2025',
@@ -39,7 +57,7 @@ export const presentations: Presentation[] = [
   },
   {
     title: 'Multi-Penalty Sample Persistence Variable Reduction for Constrained Combinatorial Optimization Problems',
-    authors: 'Shunta Ide, Shuta Kikuchi, and Shu Tanaka',
+    authors: 'Shunta Ide, Shuta Kikuchi and Shu Tanaka',
     event: 'Quantum Innovation 2025',
     venue: 'Congrès Square Grand Green, Osaka, Japan',
     url: 'https://www.qi2025.jp/',

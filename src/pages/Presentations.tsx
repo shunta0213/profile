@@ -4,6 +4,16 @@ import Card from '../components/ui/Card'
 import Layout from '../components/ui/Layout'
 import { presentations } from '../data/presentations'
 
+const highlightAuthor = (authors: string) => {
+  const name = 'Shunta Ide'
+  const parts = authors.split(name)
+  return parts.flatMap((part, i) =>
+    i < parts.length - 1
+      ? [part, <span key={i} className="underline">{name}</span>]
+      : [part]
+  )
+}
+
 const Presentations: React.FC = () => {
   const today = new Date()
 
@@ -22,7 +32,7 @@ const Presentations: React.FC = () => {
       <Card key={index}>
         <h3 className="text-xl font-semibold text-slate-700 mb-2">{presentation.title}</h3>
         <div className="text-gray-600 space-y-1">
-          <p><span className="font-semibold">Authors:</span> {presentation.authors}</p>
+          <p><span className="font-semibold">Authors:</span> {highlightAuthor(presentation.authors)}</p>
           <p>
             <span className="font-semibold">Event:</span>{' '}
             {presentation.url ? (
