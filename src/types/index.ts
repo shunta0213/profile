@@ -7,6 +7,7 @@ export interface Publication {
   pages?: string
   doi?: string
   toAppear?: boolean
+  status?: string
 }
 
 export interface Presentation {

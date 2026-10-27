@@ -1,0 +1,62 @@
+{
+  "eventUrls": {
+    "Quantum Innovation 2026": "https://www.qi2026.jp/",
+    "International Network on Quantum Annealing Conference (INQA) 2026": "https://inqa.ijs.si/",
+    "The 38th Quantum Information Kanto Region Student Chapter": "https://quangaroo.web.fc2.com/meetings/38/meeting.html",
+    "The 8th SQAI General Meeting": "https://sqai.jp/event/5962/",
+    "2026 IEEE International Conference on Quantum Computing and Engineering (QCE)": "https://qce.quantum.ieee.org/2026/",
+    "The Physical Society of Japan 2026 Annual Meeting": "https://www.jps.or.jp/english/meetings-and-awards/annual/annual-index.html",
+    "Adiabatic Quantum Computing (AQC) 2026": "https://sites.google.com/view/aqc2026/",
+    "The 7th SQAI General Meeting": "https://sqai.jp/event/5630/",
+    "International Network on Quantum Annealing Conference (INQA) 2025": "https://www.qilimanjaro.tech/inqa-2025-conference-barcelona/",
+    "2025 IEEE International Conference on Quantum Computing and Engineering (QCE)": "https://qce.quantum.ieee.org/2025/",
+    "Quantum Innovation 2025": "https://www.qi2025.jp/"
+  },
+  "engineeringNotes": {
+    "LayerX Inc., Tokyo, Japan | Software Engineering Internship": {
+      "url": "https://layerx.co.jp/",
+      "description": [
+        "Developed a SaaS platform for AI agent and workflow automation called \"Ai Workforce\".",
+        "Led the development of AI-powered features such as translation of PDFs and Microsoft Office files, and automated operations on Word documents."
+      ]
+    },
+    "MoneyForward Inc., Tokyo, Japan | Software Engineering Internship (short-term)": {
+      "url": "https://moneyforward.com/",
+      "description": [
+        "Improved the performance of the aggregation of journal entries in accounting SaaS software.",
+        "Developed the product as part of a global team (Cloud ERP Accounting Plus Team) consisting of 10+ engineers in English."
+      ]
+    },
+    "LayerX Inc., Tokyo, Japan | Software Engineering Internship (short-term)": {
+      "url": "https://layerx.co.jp/",
+      "description": [
+        "Conducted workshops to add and improve features for a corporate card SaaS product."
+      ]
+    },
+    "FastLabel Inc., Tokyo, Japan | Software Engineering Internship": {
+      "url": "https://fastlabel.ai/",
+      "description": [
+        "Developed the AI annotation SaaS."
+      ]
+    },
+    "Wanderlust, inc., Tokyo, Japan | Software Engineer, Co-founder": {
+      "url": "https://wander-lust.io/",
+      "description": [
+        "Co-founder of the company.",
+        "Developed the location sharing app \"Locket\"."
+      ]
+    }
+  },
+  "educationNotes": {
+    "Bachelor of Engineering": {
+      "details": [
+        "Department: Applied Physics and Physico-Informatics"
+      ]
+    }
+  },
+  "activityUrls": {
+    "Host of the Cloud League & GDSC Keio University Hackathon event": "https://quilt-flannel-e0f.notion.site/Hackathon-Event-Kaihatsu-Dojo-8643cbe1293441058eb69daa1a14b1f9",
+    "Community Manager of Cloud League (Engineering Community)": "https://cloud-league.vercel.app/",
+    "Google Developers Student Clubs (GDSC) Keio University Member": "https://developers.google.com/community"
+  }
+}

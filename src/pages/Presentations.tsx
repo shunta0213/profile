@@ -5,27 +5,21 @@ import Layout from '../components/ui/Layout'
 import { presentations } from '../data/presentations'
 
 const highlightAuthor = (authors: string) => {
-  const name = 'Shunta Ide'
-  const parts = authors.split(name)
-  return parts.flatMap((part, i) =>
-    i < parts.length - 1
-      ? [part, <span key={i} className="underline">{name}</span>]
-      : [part]
+  return authors.split(/(Shunta Ide|S\.\s*Ide)/g).map((part, i) =>
+    i % 2 === 1 ? <span key={i} className="underline">{part}</span> : part
   )
 }
 
 const Presentations: React.FC = () => {
   const today = new Date()
 
-  const upcomingPresentations = presentations.filter(presentation => {
-    const presentationDate = new Date(presentation.date)
-    return presentationDate >= today
-  })
+  const upcomingPresentations = presentations
+    .filter(presentation => new Date(presentation.date) >= today)
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
 
-  const finishedPresentations = presentations.filter(presentation => {
-    const presentationDate = new Date(presentation.date)
-    return presentationDate < today
-  })
+  const finishedPresentations = presentations
+    .filter(presentation => new Date(presentation.date) < today)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
   const renderPresentations = (presentationList: typeof presentations) => (
     presentationList.map((presentation, index) => (

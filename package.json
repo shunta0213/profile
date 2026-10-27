@@ -4,7 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "cv:preview": "python3 scripts/sync-cv.py --dry-run",
+    "cv:sync": "python3 scripts/sync-cv.py",
+    "cv:check": "python3 scripts/sync-cv.py --check",
+    "cv:test": "python3 -m unittest discover -s scripts/tests -v",
     "dev": "vite",
+    "prebuild": "npm run cv:check",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"

@@ -28,6 +28,7 @@ const Publications: React.FC = () => {
                 </p>
               )}
               {pub.toAppear && <p className="text-amber-600 font-semibold">To appear</p>}
+              {pub.status && <p className="text-amber-600 font-semibold">{pub.status}</p>}
             </div>
           </Card>
         ))}

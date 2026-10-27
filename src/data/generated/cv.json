@@ -1,0 +1,325 @@
+{
+  "source": "content/cv/Shunta_Ide_CV.docx",
+  "sourceSha256": "5e2818a3a1321f3c21cf1e40808123753a87a508337230105749423332b8062d",
+  "pdfSha256": "1c2587492113b5a83011e8aa1bce24075baa2f142d71213656165c77a74a51de",
+  "data": {
+    "education": [
+      {
+        "degree": "Master of Engineering",
+        "institution": "Keio University, Tokyo, Japan",
+        "period": "Apr 2026 - Current",
+        "details": []
+      },
+      {
+        "degree": "Bachelor of Engineering",
+        "institution": "Keio University, Tokyo, Japan",
+        "period": "Mar 2026",
+        "details": [
+          "Department: Applied Physics and Physico-Informatics"
+        ]
+      }
+    ],
+    "research": [
+      {
+        "title": "Research Assistant",
+        "period": "Apr 2026 - Current",
+        "organization": "Shu Tanaka Laboratory, Keio University.",
+        "description": []
+      },
+      {
+        "title": "Undergraduate Researcher",
+        "period": "Apr 2025 - Mar 2026",
+        "organization": "Shu Tanaka Laboratory, Keio University.",
+        "description": [
+          "Research on quantum annealing, quantum optimization and combinatorial optimization",
+          "Developed the new variable reduction method for constrained combinatorial optimization problems.",
+          "Investigated the sampling of degenerate quantum system in quantum annealing"
+        ]
+      }
+    ],
+    "teaching": [
+      {
+        "title": "Teaching Assistant (Quantum Technology and Market Design)",
+        "period": "Dec 2026",
+        "organization": "Department of Economics, Keio University.",
+        "description": []
+      },
+      {
+        "title": "Teaching Assistant (Algorithm and Data Structure)",
+        "period": "Oct 2026 - Nov 2026",
+        "organization": "Department of Applied Physics and Physico-Informatics, Keio University.",
+        "description": []
+      },
+      {
+        "title": "Teaching Assistant (Statistical Mechanics)",
+        "period": "Apr 2026 - June 2026",
+        "organization": "Department of Applied Physics and Physico-Informatics, Keio University.",
+        "description": []
+      }
+    ],
+    "experience": [
+      {
+        "title": "Software Engineering Internship",
+        "period": "Feb 2025 - Sep 2025",
+        "organization": "LayerX Inc., Tokyo, Japan",
+        "description": [
+          "Developed a SaaS platform for AI agent and workflow automation called \"Ai Workforce\".",
+          "Led the development of AI-powered features such as translation of PDFs and Microsoft Office files, and automated operations on Word documents."
+        ],
+        "url": "https://layerx.co.jp/"
+      },
+      {
+        "title": "Software Engineering Internship (short-term)",
+        "period": "Sep 2024",
+        "organization": "MoneyForward Inc., Tokyo, Japan",
+        "description": [
+          "Improved the performance of the aggregation of journal entries in accounting SaaS software.",
+          "Developed the product as part of a global team (Cloud ERP Accounting Plus Team) consisting of 10+ engineers in English."
+        ],
+        "url": "https://moneyforward.com/"
+      },
+      {
+        "title": "Software Engineering Internship (short-term)",
+        "period": "Sep 2024",
+        "organization": "LayerX Inc., Tokyo, Japan",
+        "description": [
+          "Conducted workshops to add and improve features for a corporate card SaaS product."
+        ],
+        "url": "https://layerx.co.jp/"
+      },
+      {
+        "title": "Software Engineering Internship",
+        "period": "Feb 2024 - Nov 2024",
+        "organization": "FastLabel Inc., Tokyo, Japan",
+        "description": [
+          "Developed the AI annotation SaaS."
+        ],
+        "url": "https://fastlabel.ai/"
+      },
+      {
+        "title": "Software Engineer, Co-founder",
+        "period": "Dec 2022 - Aug 2023",
+        "organization": "Wanderlust, inc., Tokyo, Japan",
+        "description": [
+          "Co-founder of the company.",
+          "Developed the location sharing app \"Locket\"."
+        ],
+        "url": "https://wander-lust.io/"
+      }
+    ],
+    "activities": [
+      {
+        "title": "NICT NQC Quantum Camp Exploratory Human Resources Development Program",
+        "period": "Sep 2025 - Feb 2026",
+        "organization": "",
+        "description": [
+          "Selected for a one-year research program organized by the National Institute of Information and Communications Technology (NICT), the Ministry of Internal Affairs and Communications, supporting self-directed research and development in quantum ICT through research funding and mentorship from academic and industry experts."
+        ]
+      },
+      {
+        "title": "MITOU Target Program",
+        "period": "June 2025 - Feb 2026",
+        "organization": "",
+        "description": [
+          "Selected for MITOU Target Program (Software Development Utilizing Quantum Computing Technologies), Information-technology Promotion Agency, the Ministry of Economy, Trade and Industry (Project Leader)."
+        ]
+      },
+      {
+        "title": "Student Volunteer of Global Quantum Startup Event",
+        "period": "May 2025",
+        "organization": "",
+        "description": [
+          "Global Quantum Friendship Club, Organized by Quantum Forum, Japan"
+        ]
+      },
+      {
+        "title": "Host of the Cloud League & GDSC Keio University Hackathon event",
+        "period": "Sep 2022",
+        "organization": "",
+        "description": [
+          "Hosted a hackathon event for students to develop innovative solutions using cloud technologies. Supported by multiple Japanese technology companies including CyberAgent Inc., MoneyForward Inc., GMO Internet Inc., and more."
+        ],
+        "url": "https://quilt-flannel-e0f.notion.site/Hackathon-Event-Kaihatsu-Dojo-8643cbe1293441058eb69daa1a14b1f9"
+      },
+      {
+        "title": "Community Manager of Cloud League (Engineering Community)",
+        "period": "May 2022 - Mar 2023",
+        "organization": "",
+        "description": [
+          "Engineer community consisting of Google Developers Student Clubs members in Keio University, University of Tokyo, Tohoku University, and Hitotsubashi University in Japan. Hosted events such as hackathons, workshops, and lectures supported by companies and Google."
+        ],
+        "url": "https://cloud-league.vercel.app/"
+      },
+      {
+        "title": "Google Developers Student Clubs (GDSC) Keio University Member",
+        "period": "Apr 2022 - Mar 2023",
+        "organization": "",
+        "description": [
+          "Engineer community supported by Google in Keio University."
+        ],
+        "url": "https://developers.google.com/community"
+      }
+    ],
+    "honors": [
+      {
+        "title": "Koizumi Shinzo Memorial Graduate Scholarship (fully funded, merit-based)",
+        "period": "Apr 2026 - Mar 2027",
+        "organization": "",
+        "description": [
+          "Awarded based on academic excellence and demonstrated potential as a future researcher, Keio University."
+        ]
+      },
+      {
+        "title": "Best Poster Presentation Award",
+        "period": "Mar 2026",
+        "organization": "",
+        "description": [
+          "Quantum Information Kanto Region Student Chapter, Japan."
+        ]
+      },
+      {
+        "title": "Department Chair’s Award",
+        "period": "Mar 2026",
+        "organization": "",
+        "description": [
+          "Selected for the Department Chair’s Award (outstanding graduation research and thesis award) in Department of Applied Physics and Physico-Informatics, Keio University."
+        ]
+      }
+    ],
+    "publications": [
+      {
+        "authors": "S. Ide and S. Tanaka",
+        "year": 2026,
+        "title": "Unfair Sampling of Quantum Annealing in Weighted Graph Bipartitioning Problems",
+        "venue": "2026 IEEE International Conference on Quantum Computing and Engineering (QCE), Toronto, Ontario, Canada",
+        "doi": "10.48550/arXiv.2604.11449",
+        "toAppear": true
+      },
+      {
+        "authors": "S. Ide, S. Kikuchi and S. Tanaka",
+        "year": 2025,
+        "title": "Multi-Penalty Sample Persistence Variable Reduction for Constrained Combinatorial Optimization Problems",
+        "venue": "2025 IEEE International Conference on Quantum Computing and Engineering (QCE), Albuquerque, NM, USA",
+        "doi": "10.1109/QCE65121.2025.10413",
+        "pages": "pp. 496-497"
+      },
+      {
+        "authors": "S. Ide, S. Kikcuhi and S. Tanaka",
+        "year": 2025,
+        "title": "Extending Sample Persistence Variable Reduction for Constrained Combinatorial Optimization Problems",
+        "venue": "arXiv:2509.19280",
+        "doi": "10.48550/arXiv.2509.19280",
+        "status": "Submitted for publication"
+      }
+    ],
+    "presentations": [
+      {
+        "title": "Effective XY Interactions and Ground-State Sampling in Penalty-Based Quantum Annealing",
+        "authors": "S. Ide and S. Tanaka",
+        "event": "International Network on Quantum Annealing Conference (INQA) 2026",
+        "date": "November 2, 2026",
+        "type": "Oral Presentation",
+        "venue": "Hotel Kompas Bled, Bled, Slovenia",
+        "url": "https://inqa.ijs.si/"
+      },
+      {
+        "title": "Ground-State Sampling in Quantum Annealing for the Graph Bipartitioning Problem",
+        "authors": "S.Ide and S. Tanaka",
+        "event": "The 38th Quantum Information Kanto Region Student Chapter",
+        "date": "October 2, 2026",
+        "type": "Poster Presentation",
+        "venue": "Tokyo, Japan",
+        "url": "https://quangaroo.web.fc2.com/meetings/38/meeting.html"
+      },
+      {
+        "title": "Ground-State Sampling in Quantum Annealing for the Graph Bipartitioning Problem",
+        "authors": "S. Ide and S. Tanaka",
+        "event": "The 7th SQAI General Meeting",
+        "date": "September 28, 2026",
+        "type": "Poster Presentation",
+        "venue": "Okinawa Institute of Science and Technology, Tokyo, Japan",
+        "url": "https://sqai.jp/event/5630/"
+      },
+      {
+        "title": "Unfair Sampling of Quantum Annealing in Weighted Graph Bipartitioning Problems",
+        "authors": "S.Ide and S. Tanaka",
+        "event": "2026 IEEE International Conference on Quantum Computing and Engineering (QCE)",
+        "date": "September 17, 2026",
+        "type": "Oral Presentation",
+        "venue": "Metro Toronto Convention Centre Toronto, Ontario, Canada",
+        "url": "https://qce.quantum.ieee.org/2026/"
+      },
+      {
+        "title": "Effects of Finite-Time Quench on Solution Distributions in Quantum Annealing for Multi-Objective Optimization",
+        "authors": "K. Oana, S. Ide and S. Tanaka",
+        "event": "The Physical Society of Japan 2026 Annual Meeting",
+        "date": "September 16, 2026",
+        "type": "Poster Presentation",
+        "venue": "University of Tokyo, Tokyo, Japan",
+        "url": "https://www.jps.or.jp/english/meetings-and-awards/annual/annual-index.html"
+      },
+      {
+        "title": "Unfair Sampling of Quantum Annealing in Constrained Combinatorial Optimization",
+        "authors": "S.Ide and S. Tanaka",
+        "event": "The 37th Quantum Information Kanto Region Student Chapter",
+        "date": "March 31, 2026",
+        "type": "Poster Presentation",
+        "venue": "Yokohama, Japan"
+      },
+      {
+        "title": "Unfair Sampling of Quantum Annealing in Constrained Combinatorial Optimization",
+        "authors": "S. Ide and S. Tanaka",
+        "event": "The 7th SQAI General Meeting",
+        "date": "March 6, 2026",
+        "type": "Poster Presentation",
+        "venue": "Okinawa Institute of Science and Technology, Okinawa, Japan",
+        "url": "https://sqai.jp/event/5630/"
+      },
+      {
+        "title": "Unfair Sampling in Quantum Annealing for Constrained Combinatorial Optimization: Penalty Method and XY Driver",
+        "authors": "S. Ide and S. Tanaka",
+        "event": "Quantum Innovation 2026",
+        "date": "December 9, 2025",
+        "type": "Poster Presentation",
+        "venue": "WINC AICHI, Nagoya, Japan",
+        "url": "https://www.qi2026.jp/"
+      },
+      {
+        "title": "Extensions and Evaluation of the Sample Persistence Algorithm for Constrained Combinatorial Optimization Problems",
+        "authors": "S. Ide, S. Kikcuhi and S. Tanaka",
+        "event": "International Network on Quantum Annealing Conference (INQA) 2025",
+        "date": "November 3, 2025",
+        "type": "Oral Presentation",
+        "venue": "Universitat Pompeu Fabra, Barcelona, Spain",
+        "url": "https://www.qilimanjaro.tech/inqa-2025-conference-barcelona/"
+      },
+      {
+        "title": "Multi-Penalty Sample Persistence Variable Reduction for Constrained Combinatorial Optimization Problems",
+        "authors": "S. Ide, S. Kikcuhi and S. Tanaka",
+        "event": "2025 IEEE International Conference on Quantum Computing and Engineering (QCE)",
+        "date": "September 4, 2025",
+        "type": "Poster Presentation",
+        "venue": "Albuquerque, New Mexico, USA",
+        "url": "https://qce.quantum.ieee.org/2025/"
+      },
+      {
+        "title": "Multi-Penalty Sample Persistence Variable Reduction for Constrained Combinatorial Optimization Problems",
+        "authors": "S. Ide, S. Kikcuhi and S. Tanaka",
+        "event": "Quantum Innovation 2025",
+        "date": "June 29, 2025",
+        "type": "Poster Presentation",
+        "venue": "Congrès Square Grand Green, Osaka, Japan",
+        "url": "https://www.qi2025.jp/"
+      },
+      {
+        "title": "Improving Sampling Fairness in Quantum Annealing via Penalty Terms",
+        "authors": "S. Ide and S. Tanaka",
+        "event": "Adiabatic Quantum Computing (AQC) 2026",
+        "date": "June 25, 2025",
+        "type": "Oral Presentation",
+        "venue": "Science Tokyo, Tokyo, Japan",
+        "url": "https://sites.google.com/view/aqc2026/"
+      }
+    ]
+  }
+}
