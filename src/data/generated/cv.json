@@ -1,7 +1,7 @@
 {
   "source": "content/cv/Shunta_Ide_CV.docx",
-  "sourceSha256": "5e2818a3a1321f3c21cf1e40808123753a87a508337230105749423332b8062d",
-  "pdfSha256": "1c2587492113b5a83011e8aa1bce24075baa2f142d71213656165c77a74a51de",
+  "sourceSha256": "7a7f7fc2d58c0f3d27e388241847f0c3b279a907066a6b8e7e1694c756ee5cb8",
+  "pdfSha256": "07ef9a48e98decadd5f1be09647d8d1baf4595c21f0008169ea49a3e89f410e7",
   "data": {
     "education": [
       {
@@ -194,6 +194,14 @@
         "venue": "2026 IEEE International Conference on Quantum Computing and Engineering (QCE), Toronto, Ontario, Canada",
         "doi": "10.48550/arXiv.2604.11449",
         "toAppear": true
+      },
+      {
+        "authors": "S. Ide and S. Tanaka",
+        "year": 2026,
+        "title": "Ground-State Sampling Correspondence between Penalty-Based and Constrained Quantum Annealing",
+        "venue": "arXiv:2610.26687",
+        "doi": "10.48550/arXiv.2610.26687",
+        "status": "Submitted for publication"
       },
       {
         "authors": "S. Ide, S. Kikuchi and S. Tanaka",
